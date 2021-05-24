@@ -9,7 +9,6 @@ public class Menu {
 		System.out.println("La resta es " + Operaciones.resta(elemento1, elemento2));
 		System.out.println("La multiplicación es " + Operaciones.multiplicacion(elemento1, elemento2));
 		System.out.println("La división es " + Operaciones.division(elemento1, elemento2));
-		
 	}
 
 }
