@@ -20,12 +20,12 @@ public class App
     public Integer suma2 (Integer numero1, Integer numero2) {
         numero2 = null;
         return numero1.intValue() + numero2.intValue();
-        System.out.println("prueba");
     }
 	
     public static void main( String[] args )
     {
     	logger.log(Level.INFO, "Hello World!" );
     	logger.log(Level.INFO, "La suma del 10 con el 35 es {0}", suma(10,35) );
+        System.out.println("prueba");
     }
 }

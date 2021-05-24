@@ -20,7 +20,6 @@ public class OperacionesTest
         assertTrue( true );
     }
     
-    
     @Test
     public void pruebaDeResta1Test()
     {
@@ -39,6 +38,20 @@ public class OperacionesTest
     {
         assertEquals("La multiplicación ha dejado de ser correcta", 4, Operaciones.multiplicacion(2, 2));
         assertEquals("La multiplicación ha dejado de ser correcta", 100, Operaciones.multiplicacion(10, 10));
+    }        
+    
+    @Test
+    public void pruebaDeMultiplicacion2Test()
+    {
+        assertEquals("La multiplicación ha dejado de ser correcta", 50, Operaciones.multiplicacion(5, 10));
+        assertEquals("La multiplicación ha dejado de ser correcta", 144, Operaciones.multiplicacion(12, 12));
+    }        
+    
+    @Test
+    public void pruebaDeMultiplicacion3Test()
+    {
+        assertEquals("La multiplicación ha dejado de ser correcta", 1, Operaciones.multiplicacion(1, 1));
+        assertEquals("La multiplicación ha dejado de ser correcta", 0, Operaciones.multiplicacion(0, 1000));
     }        
     
     @Test
