@@ -18,7 +18,6 @@ public class App
     }
 	
     public Integer suma2 (Integer numero1, Integer numero2) {
-        numero2 = null;
         return numero1.intValue() + numero2.intValue();
     }
 	
